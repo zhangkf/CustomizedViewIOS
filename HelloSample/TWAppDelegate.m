@@ -7,6 +7,7 @@
 //
 
 #import "TWAppDelegate.h"
+#import "TWHelloController.h"
 
 @implementation TWAppDelegate
 
@@ -23,6 +24,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    TWHelloController *helloController = [[TWHelloController alloc] init];
+    self.window.rootViewController = helloController;
+    [helloController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

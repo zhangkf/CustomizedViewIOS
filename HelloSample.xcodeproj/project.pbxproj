@@ -13,6 +13,8 @@
 		49061B9915806606000901D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49061B9715806606000901D8 /* InfoPlist.strings */; };
 		49061B9B15806606000901D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49061B9A15806606000901D8 /* main.m */; };
 		49061B9F15806606000901D8 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49061B9E15806606000901D8 /* TWAppDelegate.m */; };
+		49061BAB1580686C000901D8 /* TWHelloController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49061BAA1580686C000901D8 /* TWHelloController.m */; };
+		49061BAE15806AD5000901D8 /* TWHelloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49061BAD15806AD5000901D8 /* TWHelloView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		49061B8E15806606000901D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49061B9015806606000901D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49061B9215806606000901D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		49061B9615806606000901D8 /* HelloSample-Info.plist */ = {isa = PBXFileReference; path = "HelloSample-Info.plist"; sourceTree = "<group>"; };
+		49061B9615806606000901D8 /* HelloSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSample-Info.plist"; sourceTree = "<group>"; };
 		49061B9815806606000901D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49061B9A15806606000901D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49061B9C15806606000901D8 /* HelloSample-Prefix.pch */ = {isa = PBXFileReference; path = "HelloSample-Prefix.pch"; sourceTree = "<group>"; };
-		49061B9D15806606000901D8 /* TWAppDelegate.h */ = {isa = PBXFileReference; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		49061B9C15806606000901D8 /* HelloSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSample-Prefix.pch"; sourceTree = "<group>"; };
+		49061B9D15806606000901D8 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
 		49061B9E15806606000901D8 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		49061BA91580686C000901D8 /* TWHelloController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHelloController.h; sourceTree = "<group>"; };
+		49061BAA1580686C000901D8 /* TWHelloController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHelloController.m; sourceTree = "<group>"; };
+		49061BAC15806AD5000901D8 /* TWHelloView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHelloView.h; sourceTree = "<group>"; };
+		49061BAD15806AD5000901D8 /* TWHelloView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHelloView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			children = (
 				49061B9D15806606000901D8 /* TWAppDelegate.h */,
 				49061B9E15806606000901D8 /* TWAppDelegate.m */,
+				49061BA91580686C000901D8 /* TWHelloController.h */,
+				49061BAA1580686C000901D8 /* TWHelloController.m */,
+				49061BAC15806AD5000901D8 /* TWHelloView.h */,
+				49061BAD15806AD5000901D8 /* TWHelloView.m */,
 				49061B9515806606000901D8 /* Supporting Files */,
 			);
 			path = HelloSample;
@@ -154,6 +164,8 @@
 			files = (
 				49061B9B15806606000901D8 /* main.m in Sources */,
 				49061B9F15806606000901D8 /* TWAppDelegate.m in Sources */,
+				49061BAB1580686C000901D8 /* TWHelloController.m in Sources */,
+				49061BAE15806AD5000901D8 /* TWHelloView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
